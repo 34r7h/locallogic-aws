@@ -1,0 +1,94 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "a00f02d59fb03a5a0e40a1f08c64ce9e",
+    "packages": [
+        {
+            "name": "megumi/switch_theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miya0001/switch_theme.git",
+                "reference": "a1e8022c2a9f5db1b0ad8000b0cd1b2a85a6c4e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miya0001/switch_theme/zipball/a1e8022c2a9f5db1b0ad8000b0cd1b2a85a6c4e1",
+                "reference": "a1e8022c2a9f5db1b0ad8000b0cd1b2a85a6c4e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Megumi_SwitchTheme": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "description": "Class for switch WordPress theme",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "time": "2013-11-08 17:19:24"
+        },
+        {
+            "name": "megumi/theme_customizer_control",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/miya0001/theme_customizer_control.git",
+                "reference": "22061a6850c86e3a163d231d529e130f24672275"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/miya0001/theme_customizer_control/zipball/22061a6850c86e3a163d231d529e130f24672275",
+                "reference": "22061a6850c86e3a163d231d529e130f24672275",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Megumi_ThemeCustomizerControl": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "description": "WordPress theme customizer custom control",
+            "keywords": [
+                "theme",
+                "wordpress"
+            ],
+            "time": "2013-11-09 19:45:04"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "megumi/switch_theme": 20,
+        "megumi/theme_customizer_control": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

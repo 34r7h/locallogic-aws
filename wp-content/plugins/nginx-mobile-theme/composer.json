@@ -1,0 +1,6 @@
+{
+    "require": {
+        "megumi/switch_theme": "dev-master",
+        "megumi/theme_customizer_control": "dev-master"
+    }
+}
