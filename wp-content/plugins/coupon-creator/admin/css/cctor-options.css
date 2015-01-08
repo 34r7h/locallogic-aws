@@ -1,0 +1,212 @@
+/* Coupon Creator Options CSS
+------------------------------------------------------------ */
+
+.cctor-tabs.ui-tabs.ui-widget-content {
+    background: none;
+    border: none;
+	font-family: "Open Sans",sans-serif;
+}
+
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav {
+	height: 27px;
+	margin: 20px 0 0;
+	padding: 0;
+	background: none;
+	border: none;
+}
+
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li {
+	display: block;
+	float: left;
+	margin: 0;
+}
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li.ui-state-default,
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li.ui-state-active  {
+    background: none;
+    border: none;
+}
+
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li a {
+	border-color: #fff;
+	border-style: solid;
+	border-width: 1px 1px 0;
+	color: #5C5C5C;
+	text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+	display: inline-block;
+	padding: 4px 14px 6px;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	border-radius: 8px 8px 0 0;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .cctor-tabs-nav.ui-tabs-nav li.ui-state-active a {
+	border-width: 1px 1px 0;
+	color: #2A5A8A;
+	background: #fff;
+}
+
+#mc_embed_signup,
+.cctor-tabs-panel.ui-tabs-panel.ui-widget-content{
+	clear: both;
+	background: #fff;
+	padding: 2%;
+	box-shadow: 0 0 1px 0 rgba(50, 50, 50, 0.5);
+}
+
+.cctor-tabs-panel.ui-tabs-panel.ui-widget-content h3 {
+	font: italic normal normal 24px/29px Georgia,Times,serif;
+	color: #2A5A8A;
+	margin: 0;
+	padding: 0 0 5px;
+	line-height: 35px;
+	text-shadow: 0 1px 0 #fff;
+}
+.cctor_coupon_page_coupon-options #mc_embed_signup h3,
+.cctor-tabs-panel.ui-tabs-panel.ui-widget-content h4 {
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0 0 0 -10px;
+	color: #048C7F;
+}
+.cctor_coupon_page_coupon-options #mc_embed_signup h3:after,
+.cctor-tabs-panel.ui-tabs-panel.ui-widget-content h4:after {
+    content: "";
+    height: 1px;
+	display: block;
+    margin-top: 10px;
+	background: rgb(0,0,0);
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(left,  rgba(0,0,0,1) 1%, rgba(155,155,155,1) 28%, rgba(255,255,255,1) 85%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(1%,rgba(0,0,0,1)), color-stop(28%,rgba(155,155,155,1)), color-stop(85%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 1%,rgba(155,155,155,1) 28%,rgba(255,255,255,1) 85%);
+	background: -o-linear-gradient(left,  rgba(0,0,0,1) 1%,rgba(155,155,155,1) 28%,rgba(255,255,255,1) 85%);
+	background: -ms-linear-gradient(left,  rgba(0,0,0,1) 1%,rgba(155,155,155,1) 28%,rgba(255,255,255,1) 85%);
+	background: linear-gradient(to right,  rgba(0,0,0,1) 1%,rgba(155,155,155,1) 28%,rgba(255,255,255,1) 85%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff',GradientType=1 );
+}
+.wrap h3, .wrap table {
+	display: none;
+}
+
+.cctor_coupon_page_coupon-options input.regular-text {
+	width: auto;
+}
+
+.cctor_coupon_page_coupon-options p.submit {
+    overflow:hidden;
+}
+.cctor_coupon_page_coupon-options.wp-core-ui .button-primary {
+    float: right;
+}
+
+/*hides empty row*/
+.form-table tr > *:empty {
+    display: none;
+}
+
+div.alert {
+    border-left: 4px solid #dd3d36;
+    padding: 1px 12px;
+	color: #dd3d36;
+}
+
+.cctor-license-button-act {
+	background: #2a5a8a;
+	border:1px solid #2a5a8a;
+	color: #fff;
+}
+
+.cctor-license-button-act:hover {
+	background: #1e4164;
+	cursor: pointer;
+}
+
+.cctor-license-button-det {
+	background: #048c7f;
+	border:1px solid #048c7f;
+	color: #fff;
+}
+
+.cctor-license-button-det:hover {
+	background: #2a5a8a;
+	cursor: pointer;
+}
+.ui-widget-content a.cctor-support,
+.cctor-support {
+	color:#2a5a8a;
+}
+.ui-widget-content a.cctor-support:hover,
+.cctor-support:hover {
+	color:#9DD3DF;
+}
+#pro.cctor-tabs-panel h3:first-child {
+	display:none!important;
+}
+#pro.cctor-tabs-panel ul {
+    list-style-type: disc;
+}
+#pro.cctor-tabs-panel li {
+    padding-left: 5px;
+	margin-left: 20px;
+	font-size: 14px;
+}
+.cctor-pro-img  {
+	width: 700px;
+	height: auto;
+	margin: 10px 0 25px 50px;
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.cctor-pro-img:before, .cctor-pro-img:after {
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.cctor-pro-img:after {
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+/* Coupon Creator Options Sign Up Form
+------------------------------------------------------------ */
+#mc_embed_signup{
+	overflow:hidden;
+}
+.cctor_coupon_page_coupon-options #mc_embed_signup h3{
+	margin: 0 0 10px;
+}
+.mc-field-group {
+	width: 192px;
+	float:left;
+}
+#mc-embedded-subscribe {
+	width: 90px;
+	float:left;
+	background: #950402;
+	color: #fff;
+	font-weight: 700;
+	box-shadow: none;
+	border:1px solid #f32323;
+}
+#mc-embedded-subscribe:hover {
+	background: #f32323;
+}

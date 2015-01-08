@@ -1,0 +1,9 @@
+1.0.4
+Check added to see if core GeoDirectory is active before loading the rest of the plugin - ADDED
+
+1.0.3
+Autocompleter add the new label text as search variable when label of the Near field customized - FIXED
+
+1.0.2
+if multiple search forms on page, autosubmit is broken - FIXED
+Translation file added - ADDED
