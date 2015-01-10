@@ -5,7 +5,7 @@ function theme_enqueue_styles() {
 }
 
 // Add Shortcode
-function current_user() {
+function current_userFn() {
 
 	// Code
 <?php
@@ -23,4 +23,4 @@ function current_user() {
     echo 'User ID: ' . $current_user->ID . '<br />';
 ?>
 }
-add_shortcode( 'current_user', 'current_user' );
+add_shortcode( 'current_user', 'current_userFn' );
