@@ -4,7 +4,6 @@
 function current_userFn() {
 
 	// Code
-<?php
     $current_user = wp_get_current_user();
     /**
      * @example Safe usage: $current_user = wp_get_current_user();
@@ -17,6 +16,5 @@ function current_userFn() {
     echo 'User last name: ' . $current_user->user_lastname . '<br />';
     echo 'User display name: ' . $current_user->display_name . '<br />';
     echo 'User ID: ' . $current_user->ID . '<br />';
-?>
 }
 add_shortcode( 'current_user', 'current_userFn' );
