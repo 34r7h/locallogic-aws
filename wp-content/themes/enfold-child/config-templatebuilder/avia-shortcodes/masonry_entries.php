@@ -962,8 +962,3 @@ if ( !class_exists( 'avia_masonry' ) )
 
 
 
-
-
-
-
-
